@@ -1,0 +1,44 @@
+.root {
+    -fx-font-size: 18;
+}
+
+#calculator {
+    -fx-alignment: center-right;
+    -fx-background-color: #494b4e;
+}
+
+#display {
+    -fx-font-family: monospace;
+    -fx-alignment: bottom-right;
+    -fx-padding: 20 5 5 5;
+    -fx-font-size: 40;
+    -fx-text-fill: #e8e8e8;
+}
+
+.button {
+    -fx-pref-width: 60;
+    -fx-pref-height: 50;
+    -fx-background-color: lightgray;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #979797;
+    -fx-border-width: 0.5;
+}
+
+.button:armed {
+    -fx-background-color: darkgrey;
+}
+
+.button.zero {
+    -fx-pref-width: 180;
+    -fx-alignment: center-left;
+    -fx-padding: 0 25;
+}
+
+.button.op {
+    -fx-background-color: #ff9d42;
+}
+
+.button.op:armed {
+    -fx-background-color: #bf6937;
+}
